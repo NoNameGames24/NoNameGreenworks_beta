@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kontakt | Wildgruen Naturwerk</title>
+    <title>Kontakt | Wildgrün Naturwerk</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
       <div class="nav-wrap">
-        <a class="brand" href="index.html"><img src="assets/logo.svg" alt=""><span>Wildgruen Naturwerk<small>Garten. Pflege. Lebensraum.</small></span></a>
-        <button class="nav-toggle" type="button" aria-label="Menue oeffnen" aria-expanded="false" data-nav-toggle>☰</button>
+        <a class="brand" href="index.html"><img src="assets/logo.svg" alt=""><span>Wildgrün Naturwerk<small>Garten. Pflege. Lebensraum.</small></span></a>
+        <button class="nav-toggle" type="button" aria-label="Menü öffnen" aria-expanded="false" data-nav-toggle>☰</button>
         <nav class="nav-links" data-nav-links>
           <a href="index.html">Welcome</a><a href="portfolio.html">Portfolio</a><a href="aktuelles.html">Aktuelles</a><a href="angebote.html">Angebote</a><a class="active" href="kontakt.html">Kontakt</a><a href="about.html">About</a>
         </nav>
@@ -20,33 +20,39 @@
       <section class="page-hero">
         <div class="wrap">
           <p class="eyebrow">Kontakt</p>
-          <h1>Erzaehl kurz, worum es geht.</h1>
-          <p class="lead">Das Formular ist als Website-Vorlage vorbereitet. Fuer echte Anfragen muss spaeter noch eine Mailadresse oder ein Formularanbieter angeschlossen werden.</p>
+          <h1>Erzähl kurz, worum es geht.</h1>
+          <p class="lead">Schick die wichtigsten Eckdaten direkt über das Formular. Die Nachricht geht an Tobias-Dio@gmx.de; beim ersten Test muss die Adresse einmal bestätigt werden.</p>
         </div>
       </section>
       <section class="section">
         <div class="wrap contact-box">
           <div class="card">
             <span class="tag">Direkt</span>
-            <h3>Wildgruen Naturwerk</h3>
+            <h3>Wildgrün Naturwerk</h3>
             <ul class="list">
               <li>Inhaber: Tobias Dio</li>
-              <li>E-Mail: kontakt@wildgruen-naturwerk.de</li>
+              <li>E-Mail: Tobias-Dio@gmx.de</li>
               <li>Telefon: folgt</li>
               <li>Region: nach Absprache</li>
             </ul>
           </div>
-          <form class="card" action="#" method="post">
-            <label>Name<input name="name" autocomplete="name" placeholder="Dein Name"></label>
-            <label>E-Mail<input type="email" name="email" autocomplete="email" placeholder="name@example.de"></label>
-            <label>Thema<select name="topic"><option>Gartenpflege</option><option>Kopfschnitt / Obstbaumschnitt</option><option>Baum- oder Gehoelzarbeit</option><option>Pflaster / Treppe / Rampe</option><option>Terrasse / Zaun</option><option>Teich / Wasser</option><option>Anlage fuer Tiere</option><option>Sturmschaden</option><option>Sonstiges</option></select></label>
-            <label>Nachricht<textarea name="message" placeholder="Was soll gemacht werden? Grobe Groesse, Ort und Wunschzeitraum reichen fuer den Anfang."></textarea></label>
-            <button class="button" type="submit">Anfrage vorbereiten</button>
+          <form class="card" action="https://formsubmit.co/Tobias-Dio@gmx.de" method="post">
+            <input type="hidden" name="_subject" value="Neue Anfrage über Wildgrün Naturwerk">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://nonamegames24.github.io/NoNameGreenworks_beta/danke.html">
+            <input type="hidden" name="_blacklist" value="bitcoin, crypto, casino, seo, viagra, loan, investment">
+            <label class="bot-field">Bitte frei lassen<input name="_honey" tabindex="-1" autocomplete="off"></label>
+            <label>Name<input name="Name" autocomplete="name" placeholder="Dein Name" required></label>
+            <label>E-Mail<input type="email" name="email" autocomplete="email" placeholder="name@example.de" required></label>
+            <label>Telefon, falls gewünscht<input type="tel" name="Telefon" autocomplete="tel" placeholder="Telefonnummer für Rückfragen"></label>
+            <label>Thema<select name="Thema" required><option>Gartenpflege</option><option>Kopfschnitt / Obstbaumschnitt</option><option>Baum- oder Gehölzarbeit</option><option>Pflaster / Treppe / Rampe</option><option>Terrasse / Zaun</option><option>Teich / Wasser</option><option>Anlage für Tiere</option><option>Sturmschaden</option><option>Sonstiges</option></select></label>
+            <label>Nachricht<textarea name="Nachricht" placeholder="Was soll gemacht werden? Grobe Größe, Ort und Wunschzeitraum reichen für den Anfang." required></textarea></label>
+            <button class="button" type="submit">Anfrage senden</button>
           </form>
         </div>
       </section>
     </main>
-    <footer class="site-footer"><div class="wrap footer-grid"><div><strong>Wildgruen Naturwerk</strong>Kontaktvorlage</div><div class="footer-links"><a href="angebote.html">Angebote</a><a href="about.html">About</a></div></div></footer>
+    <footer class="site-footer"><div class="wrap footer-grid"><div><strong>Wildgrün Naturwerk</strong>Kontaktvorlage</div><div class="footer-links"><a href="angebote.html">Angebote</a><a href="about.html">About</a></div></div></footer>
     <script src="script.js"></script>
   </body>
 </html>

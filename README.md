@@ -1,6 +1,6 @@
-# Wildgruen Naturwerk Website
+# Wildgrün Naturwerk Website
 
-Statische Mehrseiten-Website fuer einen Garten- und Landschaftsbau-Betrieb im Aufbau.
+Statische Mehrseiten-Website für einen Garten- und Landschaftsbau-Betrieb im Aufbau.
 
 ## Seiten
 
@@ -18,9 +18,9 @@ Quelle: lokale Projektbilder aus `/home/nonamegames_/.openclaw/workspace/project
 
 ## GitHub Pages Workflow
 
-Fuer zukuenftige Arbeit an der Seite wird der Stand nach Fertigstellung in den Git-Ordner synchronisiert:
+Für zukünftige Arbeit an der Seite wird der Stand nach Fertigstellung in den Git-Ordner synchronisiert:
 
 `/mnt/d/HOK - GITHUB/NoNameGreenworks_beta`
 
 Danach: `git status`, Commit, Push nach `https://github.com/NoNameGames24/NoNameGreenworks_beta.git`.
-Kein lokaler Preview-Server, ausser Tobias verlangt ihn ausdruecklich.
+Kein lokaler Preview-Server, außer Tobias verlangt ihn ausdrücklich.
