@@ -121,6 +121,19 @@ a {
   background: var(--field);
 }
 
+.section.dark {
+  background: #17241e;
+  color: #fff;
+}
+
+.section.dark .copy {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.section.dark .eyebrow {
+  color: #c8d8b2;
+}
+
 .wrap {
   width: min(1160px, calc(100% - 32px));
   margin: 0 auto;
@@ -134,6 +147,12 @@ a {
   background:
     linear-gradient(90deg, rgba(251, 250, 245, 0.96) 0%, rgba(251, 250, 245, 0.82) 44%, rgba(251, 250, 245, 0.18) 100%),
     url("assets/landscape.svg") center right / cover no-repeat;
+}
+
+.photo-hero {
+  background:
+    linear-gradient(90deg, rgba(251, 250, 245, 0.98) 0%, rgba(251, 250, 245, 0.88) 44%, rgba(251, 250, 245, 0.2) 100%),
+    url("assets/photos/hero-natur.jpg") center right / cover no-repeat;
 }
 
 .hero-grid {
@@ -287,6 +306,118 @@ p {
   color: var(--muted);
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.image-card,
+.work-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.image-card img,
+.work-card img,
+.split-feature img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-card img {
+  aspect-ratio: 4 / 3;
+}
+
+.image-card div,
+.work-card div {
+  padding: 22px;
+}
+
+.image-card p,
+.work-card p {
+  margin-top: 10px;
+  color: var(--muted);
+}
+
+.split-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+  gap: 38px;
+  align-items: center;
+}
+
+.split-feature.reverse {
+  grid-template-columns: minmax(320px, 1.1fr) minmax(0, 0.9fr);
+}
+
+.split-feature.reverse > div {
+  order: 2;
+}
+
+.split-feature img {
+  min-height: 420px;
+  max-height: 560px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.check-list {
+  display: grid;
+  gap: 10px;
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.check-list li {
+  position: relative;
+  padding-left: 28px;
+  color: var(--muted);
+}
+
+.check-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 14px;
+  height: 8px;
+  border-left: 3px solid var(--leaf);
+  border-bottom: 3px solid var(--leaf);
+  transform: rotate(-45deg);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.work-card {
+  grid-column: span 3;
+}
+
+.work-card.large {
+  grid-column: span 6;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  align-items: stretch;
+}
+
+.work-card img {
+  height: 100%;
+  min-height: 320px;
+}
+
+.work-card:not(.large) img {
+  aspect-ratio: 4 / 3;
+}
+
 .feature-band {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -312,7 +443,28 @@ p {
 
 .page-hero {
   padding: 88px 0 54px;
-  background: var(--field);
+  background:
+    linear-gradient(90deg, rgba(237, 241, 232, 0.96), rgba(237, 241, 232, 0.84)),
+    url("assets/photos/hero-natur.jpg") center / cover no-repeat;
+}
+
+.page-portfolio {
+  background:
+    linear-gradient(90deg, rgba(237, 241, 232, 0.96), rgba(237, 241, 232, 0.84)),
+    url("assets/photos/pflaster-flaeche.jpg") center / cover no-repeat;
+}
+
+.page-angebote {
+  background:
+    linear-gradient(90deg, rgba(237, 241, 232, 0.96), rgba(237, 241, 232, 0.84)),
+    url("assets/photos/gartenplanung.jpg") center / cover no-repeat;
+}
+
+.page-about,
+.page-news {
+  background:
+    linear-gradient(90deg, rgba(237, 241, 232, 0.96), rgba(237, 241, 232, 0.84)),
+    url("assets/photos/teich-naturgarten.jpg") center / cover no-repeat;
 }
 
 .page-hero .lead {
@@ -440,13 +592,40 @@ textarea {
       url("assets/landscape.svg") center bottom / cover no-repeat;
   }
 
+  .photo-hero {
+    background:
+      linear-gradient(180deg, rgba(251, 250, 245, 0.98) 0%, rgba(251, 250, 245, 0.88) 72%, rgba(251, 250, 245, 0.52) 100%),
+      url("assets/photos/hero-natur.jpg") center bottom / cover no-repeat;
+  }
+
   .hero-grid,
   .intro,
   .feature-band,
   .contact-box,
+  .image-grid,
+  .split-feature,
+  .split-feature.reverse,
   .grid.three,
   .grid.two {
     grid-template-columns: 1fr;
+  }
+
+  .split-feature.reverse > div {
+    order: 0;
+  }
+
+  .split-feature img {
+    min-height: 260px;
+  }
+
+  .gallery,
+  .work-card.large {
+    grid-template-columns: 1fr;
+  }
+
+  .work-card,
+  .work-card.large {
+    grid-column: span 1;
   }
 
   .hero-note {

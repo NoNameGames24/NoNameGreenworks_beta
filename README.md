@@ -5,19 +5,22 @@ Statische Mehrseiten-Website fuer einen Garten- und Landschaftsbau-Betrieb im Au
 ## Seiten
 
 - `index.html` - Welcome / Landingpage
-- `portfolio.html` - Portfolio-Vorschau
+- `portfolio.html` - Portfolio-Vorschau mit Bildkacheln
 - `aktuelles.html` - Neuigkeiten
 - `angebote.html` - Leistungen ohne zu tiefe Details
 - `kontakt.html` - Kontaktvorlage
 - `about.html` - Infoseite zum Betrieb
 
-## Direkt anschauen
+## Bilder
 
-Oeffne `index.html` im Browser. Es wird kein Build-Schritt benoetigt.
+Die optimierten Website-Bilder liegen unter `assets/photos/`.
+Quelle: lokale Projektbilder aus `/home/nonamegames_/.openclaw/workspace/projects/bilder`.
 
-## Anpassen
+## GitHub Pages Workflow
 
-- Logo: `assets/logo.svg`
-- Landschaftsgrafik: `assets/landscape.svg`
-- Farben/Layout: `styles.css`
-- Mobile Menue-Logik: `script.js`
+Fuer zukuenftige Arbeit an der Seite wird der Stand nach Fertigstellung in den Git-Ordner synchronisiert:
+
+`/mnt/d/HOK - GITHUB/NoNameGreenworks_beta`
+
+Danach: `git status`, Commit, Push nach `https://github.com/NoNameGames24/NoNameGreenworks_beta.git`.
+Kein lokaler Preview-Server, ausser Tobias verlangt ihn ausdruecklich.
