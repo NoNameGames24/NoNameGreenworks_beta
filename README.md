@@ -4,7 +4,7 @@ Statische Mehrseiten-Website für GitHub Pages.
 
 ## Aktuelle Version
 
-**0.0.0.3**
+**0.0.0.4**
 
 Versionsfolge: Nach `0.0.0.9` folgt `0.0.1.0`.
 
@@ -30,3 +30,13 @@ Versionsfolge: Nach `0.0.0.9` folgt `0.0.1.0`.
 ## Technik
 
 Reine HTML/CSS/JavaScript-Website ohne Build-Schritt, Tracking oder externe Schriftarten.
+
+
+## Änderungen in 0.0.0.4
+
+- Helles, einheitliches Gestaltungssystem
+- Mobile Navigation und Bedienung überarbeitet
+- Mobile Hero-, Karten-, Prozess- und Footer-Darstellung optimiert
+- Dunkle Inhaltsflächen durch helle, kontrastreiche Flächen ersetzt
+- Abstände, Typografie, Schatten und Kartenhierarchie reduziert und vereinheitlicht
+- Rechtstextseiten responsiv verbessert
