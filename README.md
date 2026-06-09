@@ -1,35 +1,32 @@
 # Tobias Dio – Garten- und Landschaftsbau
 
-Überarbeitete statische Website für GitHub Pages.
+Statische Mehrseiten-Website für GitHub Pages.
 
-## Enthalten
+## Aktuelle Version
+
+**0.0.0.3**
+
+Versionsfolge: Nach `0.0.0.9` folgt `0.0.1.0`.
+
+## Seiten
 
 - `index.html` – Startseite
-- `angebote.html` – ausführliche Leistungen
-- `portfolio.html` – Arbeitsbereiche und Konzeptbilder
-- `aktuelles.html` – Neuigkeiten und saisonale Themen
-- `about.html` – Hintergrund und Betriebsaufbau
-- `kontakt.html` – Kontaktseite mit Formularvorlage
-- `styles.css` – responsives Design
-- `script.js` – mobiles Navigationsmenü
-- `assets/images/` – Websitebilder
+- `angebote.html` – Leistungen
+- `portfolio.html` – Arbeitsbereiche
+- `aktuelles.html` – Aktuelles
+- `about.html` – Über mich
+- `kontakt.html` – Kontaktvorlage ohne Versandfunktion
+- `impressum.html` – Impressumsvorlage mit Pflichtfeldern
+- `datenschutz.html` – Datenschutzerklärung für den aktuellen technischen Stand
 
-## Vor endgültiger Veröffentlichung zwingend ergänzen
+## Vor öffentlichem Geschäftsbetrieb zwingend ergänzen
 
-1. Geschäftliche E-Mail-Adresse und Telefonnummer
-2. Vollständiges Impressum
-3. Datenschutzerklärung
-4. Tatsächliches Einsatzgebiet
-5. Funktion für das Kontaktformular
-6. Prüfung des endgültigen Firmennamens und der Domain
+- ladungsfähige Anschrift
+- geschäftliche E-Mail-Adresse
+- Telefonnummer
+- gegebenenfalls Umsatzsteuer-ID und weitere Registerangaben
+- finale Prüfung von Impressum und Datenschutz
 
-## GitHub Pages aktualisieren
+## Technik
 
-Alle Dateien in das Stammverzeichnis des bestehenden Repositorys hochladen und vorhandene Dateien ersetzen. Die Ordnerstruktur muss erhalten bleiben.
-
-
-## Logo-Dateien
-
-- `assets/logo-tobias-dio.png` – vollständiges Logo mit transparentem Hintergrund
-- `assets/logo-mark.png` – Bildmarke ohne Schrift
-- `assets/favicon-64.png` – Browser-Icon
+Reine HTML/CSS/JavaScript-Website ohne Build-Schritt, Tracking oder externe Schriftarten.
