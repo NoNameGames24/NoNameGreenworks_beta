@@ -1,26 +1,35 @@
-# Wildgrün Naturwerk Website
+# Tobias Dio – Garten- und Landschaftsbau
 
-Statische Mehrseiten-Website für einen Garten- und Landschaftsbau-Betrieb im Aufbau.
+Überarbeitete statische Website für GitHub Pages.
 
-## Seiten
+## Enthalten
 
-- `index.html` - Welcome / Landingpage
-- `portfolio.html` - Portfolio-Vorschau mit Bildkacheln
-- `aktuelles.html` - Neuigkeiten
-- `angebote.html` - Leistungen ohne zu tiefe Details
-- `kontakt.html` - Kontaktvorlage
-- `about.html` - Infoseite zum Betrieb
+- `index.html` – Startseite
+- `angebote.html` – ausführliche Leistungen
+- `portfolio.html` – Arbeitsbereiche und Konzeptbilder
+- `aktuelles.html` – Neuigkeiten und saisonale Themen
+- `about.html` – Hintergrund und Betriebsaufbau
+- `kontakt.html` – Kontaktseite mit Formularvorlage
+- `styles.css` – responsives Design
+- `script.js` – mobiles Navigationsmenü
+- `assets/images/` – Websitebilder
 
-## Bilder
+## Vor endgültiger Veröffentlichung zwingend ergänzen
 
-Die optimierten Website-Bilder liegen unter `assets/photos/`.
-Quelle: lokale Projektbilder aus `/home/nonamegames_/.openclaw/workspace/projects/bilder`.
+1. Geschäftliche E-Mail-Adresse und Telefonnummer
+2. Vollständiges Impressum
+3. Datenschutzerklärung
+4. Tatsächliches Einsatzgebiet
+5. Funktion für das Kontaktformular
+6. Prüfung des endgültigen Firmennamens und der Domain
 
-## GitHub Pages Workflow
+## GitHub Pages aktualisieren
 
-Für zukünftige Arbeit an der Seite wird der Stand nach Fertigstellung in den Git-Ordner synchronisiert:
+Alle Dateien in das Stammverzeichnis des bestehenden Repositorys hochladen und vorhandene Dateien ersetzen. Die Ordnerstruktur muss erhalten bleiben.
 
-`/mnt/d/HOK - GITHUB/NoNameGreenworks_beta`
 
-Danach: `git status`, Commit, Push nach `https://github.com/NoNameGames24/NoNameGreenworks_beta.git`.
-Kein lokaler Preview-Server, außer Tobias verlangt ihn ausdrücklich.
+## Logo-Dateien
+
+- `assets/logo-tobias-dio.png` – vollständiges Logo mit transparentem Hintergrund
+- `assets/logo-mark.png` – Bildmarke ohne Schrift
+- `assets/favicon-64.png` – Browser-Icon
